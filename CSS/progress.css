@@ -1,0 +1,58 @@
+.value{
+    font-size: 50px;;
+    text-align: center;
+    position: relative;
+    padding-top: 0.7rem;;
+    font-size:35px;
+    
+}
+.meaning{
+    position: absolute;
+    top: 4rem;
+    right: 3rem;
+}
+.p-bar{
+    width: 13rem;
+}
+.p-bar .good{
+    color: green;;
+}
+.p-bar .normal{
+    padding-left: 2rem;
+    color: blue;
+}
+.p-bar .bad {
+    padding-left: 1.5rem;
+    color: red;
+}
+.rain-chance i{
+    text-decoration: none;
+    padding-left: 1.2rem;;
+    font-size: x-small;
+}
+
+.temp-scale i{
+    padding-left: 4.2rem;
+    font-size: x-small;
+}
+.uv-index i{
+    padding-left: 1.4rem;
+    font-size: x-small;
+}
+.uv-index span{
+    font-size: x-small;
+}
+
+.rain-indicator i{
+    font-size: x-small;
+    padding-left: 0.5rem;
+}
+.wind-speed i{
+    font-size: x-small;
+    padding-left: 1.9rem;
+}
+
+.more-details{
+    padding-top: 1rem;
+    padding-left: 0.3rem;
+}

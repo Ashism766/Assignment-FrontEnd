@@ -1,0 +1,360 @@
+body{
+    font-family: sans-serif;
+    background-color:#aed0f6!important;
+    color: white;
+   
+    
+}
+
+#main {
+  
+    background-image: url("bg-img.jpg");
+    width: 90%;
+    height: 55rem;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;;
+    border-radius: 60px;
+    position: relative;
+   
+}
+
+.Nav-bar{
+    margin: 1rem;;
+    margin-top: 3rem;;
+    margin-left: 3rem;;
+    font-family: sans-serif;
+}
+.icon{
+    color: white;
+    
+}
+
+.unit{
+    font-size: 20px;
+    position: relative;
+    bottom: 2px;
+    
+}
+
+.small{
+    font-size: x-small;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .tgl-switch{
+    /* position: relative;
+    left: 10rem;
+    top: 0.5rem; */
+    position: absolute;
+    top:3rem;
+    right: 2rem;
+
+  }
+
+  /* @media only screen and (min-width: 1480px){
+  .tgl-switch{
+    position: relative;
+    left: 14rem;
+    top: 0.5rem;
+  }
+  @media only screen and (max-width: 764px){
+    .tgl-switch{
+      position: relative;
+      left: 14rem;
+      top: 0.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 1479px) and (min-width: 763){
+    .tgl-switch{
+      position: relative;
+      left: 6rem;
+      top: 0.5rem;
+    } */
+  .switch-padding
+  {
+   position: relative;
+   bottom: 0.7rem;;
+  }
+  
+  input:checked + .slider {
+    background-color:burlywood;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px burlywood;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+.hello{
+    color: red;;
+}
+
+#place{
+    height: 30rem;;
+    position: relative;
+}
+
+#details{
+    background-color: #E4F1FF;
+    border-radius: 60px;
+    height: 55rem;
+
+}
+
+.carousel{
+    margin-top: 2rem;;
+    
+}
+.carousel-item{
+    margin-left: 3rem;
+    margin-right: 3rem;;
+    margin-top: 2rem;;
+}
+
+.temp h1{
+    font-size: 100px;
+    /* display: inline-block;
+    position: relative;
+    left: 7rem;; */
+
+    text-align: center;
+    position: relative;
+    padding-right: 2.5rem;
+    padding-top: 3rem;;
+    
+}
+.temp p{
+    text-align: center;
+}
+
+.left{
+    position: absolute;
+    left: 1rem;;
+}
+.right{
+    position: absolute;
+    right: 3rem;
+}
+
+
+.carousel-arrow{
+    position: relative;
+    top: 5rem;
+}
+
+div.carousel-inner {
+    padding-top: 3rem;;
+    height: 300px !important;
+}  
+.today{
+    font-size: small;
+}
+
+
+/* The right side of */
+
+
+#details{
+    color: black;
+    padding: 2rem;
+    position: relative;
+}
+
+.welcome{
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+
+
+ .logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    margin-top: -5px;
+ }
+
+ .navbar-toggler{
+    width: 46px;
+    height: 40px;
+    border-radius: 50%;
+    /* overflow: hidden; */
+   
+    padding: 0;
+    margin-bottom: 0;
+    border: none;
+ }
+
+ /*for removing the outline while cliking */
+ .navbar-toggler:focus,
+ .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+ }
+
+
+
+
+ #mychart{
+    height: 5rem;
+    width: 10rem;;
+    border-radius: 30px;;
+ }
+ canvas{
+    border-radius: 30px;;
+    
+    padding: 1rem;;
+ }
+ .chart-container{
+    height: 5rem;;
+    width: 10rem;;
+    border-radius: 30px;
+    position: relative;
+    
+    padding: 2rem;;
+ }
+
+ .Card{
+    margin: 0.5rem;
+    padding: 1rem;
+    width: 15rem;;
+    position: relative;
+    background-color: white;
+    border-radius: 30px;
+    height: 10rem;;
+    font-weight:500;
+    font-size: small;
+ }
+ @media only screen and (min-width: 1450px) {
+    .Card{
+        margin: 1rem;;
+    }
+  }
+ .Card img{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    right: 1rem;
+    top: 1rem;
+ }
+
+
+ @media only screen and (max-width: 1000px) {
+    #details{
+        height: 100rem;;
+    }
+    #main{
+        height: 100rem;;
+    }
+    .profile{
+        display: inline-block;
+        position: absolute;
+        right: 2rem;
+        top: 2rem;
+        /* position: relative;
+        left: 10rem;
+        bottom: 2.5rem;; */
+        z-index: 3;
+        
+    }
+  }
+  @media only screen and (min-width: 1000px) and (max-width: 1450px) {
+    #details{
+        height: 70rem;;
+    }
+    #main{
+        height: 70rem;;
+        position: relative;
+    }
+
+    .profile{
+        display: inline-block;
+        position: absolute;
+        right: 2rem;
+        top: 2rem;
+        /* position: relative;
+        left: 10rem;
+        bottom: 2.5rem;; */
+        z-index: 3;
+        
+    }
+    
+  }
+
+
+  @media only screen and (min-width: 1200px){
+    .profile{
+        display: inline-block;
+        /* position: absolute;
+        right: 5rem;
+        top: 2.5rem; */
+        position: relative;
+        left: 17rem;
+        bottom: 2.5rem;;
+        
+    }
+  }
+
+.next-day{
+  padding-top: 1px;
+  margin-right: 1rem;;
+  margin-top: 0.5rem;
+  padding-bottom: 1px;;
+}
+.chart-option{
+  background-color: white;
+}

@@ -1,0 +1,19 @@
+.chart-option{
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+
+}
+.next-day{
+    display: inline-block;
+    position:absolute;
+    right: 1rem;;
+    padding-bottom: 3rem;
+    font-size:13px;
+   
+
+}
+
+.precepatation{
+    right: 5rem;
+}
